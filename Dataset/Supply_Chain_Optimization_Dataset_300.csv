@@ -1,0 +1,301 @@
+OrderID,OrderDate,ProductID,ProductName,Category,SupplierID,SupplierName,SupplierCountry,Warehouse,DestinationCountry,ShippingMode,Carrier,OrderQuantity,UnitPrice,TotalCost,InventoryLevel,LeadTimeDays,DelayDays,SupplierRating,DefectiveUnits,ReturnRate,DeliveryStatus,StockStatus,RiskLevel,DeliveryPerformance
+O0001,2025-12-13,P048,Product 35,Electronics,S001,Alpha Supplies,India,Warehouse D,India,Air,DHL,11,399,4389,281,6,3,3,1,9.09,Delayed,Medium,Medium,Good
+O0002,2025-12-26,P035,Product 27,Furniture,S002,Dragon Trade,China,Warehouse D,Singapore,Rail,DHL,64,278,17792,616,11,0,3,10,15.62,On Time,High,Low,Excellent
+O0003,2025-02-22,P006,Product 25,Electronics,S002,Dragon Trade,China,Warehouse C,Germany,Rail,DHL,183,236,43188,348,5,4,3,5,2.73,Delayed,Medium,Medium,Good
+O0004,2025-11-13,P024,Product 37,Furniture,S004,Prime USA,USA,Warehouse A,India,Sea,UPS,142,83,11786,996,4,6,4,10,7.04,Delayed,High,Medium,Good
+O0005,2025-07-06,P011,Product 24,Grocery,S001,Alpha Supplies,India,Warehouse B,Germany,Air,FedEx,64,463,29632,103,7,6,5,10,15.62,Delayed,Low,Medium,Good
+O0006,2025-12-19,P036,Product 15,Grocery,S005,Sakura Co,Japan,Warehouse A,UAE,Air,UPS,191,145,27695,167,9,7,4,10,5.24,Delayed,Medium,High,Poor
+O0007,2025-12-02,P032,Product 26,Clothing,S004,Prime USA,USA,Warehouse B,Germany,Sea,FedEx,73,53,3869,216,14,9,4,3,4.11,Delayed,Medium,High,Poor
+O0008,2025-04-23,P009,Product 33,Clothing,S005,Sakura Co,Japan,Warehouse A,India,Air,FedEx,142,154,21868,764,9,9,5,5,3.52,Delayed,High,High,Poor
+O0009,2025-08-28,P034,Product 17,Medical,S002,Dragon Trade,China,Warehouse A,India,Rail,UPS,179,236,42244,610,9,1,5,9,5.03,On Time,High,Low,Excellent
+O0010,2025-04-02,P033,Product 7,Grocery,S001,Alpha Supplies,India,Warehouse B,UAE,Rail,FedEx,80,242,19360,161,3,7,4,8,10.0,Delayed,Medium,High,Poor
+O0011,2025-02-27,P024,Product 20,Furniture,S005,Sakura Co,Japan,Warehouse A,UAE,Air,DHL,140,490,68600,0,8,9,5,0,0.0,Delayed,Low,High,Poor
+O0012,2025-03-26,P017,Product 34,Medical,S004,Prime USA,USA,Warehouse D,UAE,Sea,UPS,22,409,8998,545,5,2,5,8,36.36,On Time,High,Low,Excellent
+O0013,2025-05-07,P015,Product 5,Grocery,S004,Prime USA,USA,Warehouse A,Singapore,Sea,FedEx,176,352,61952,382,11,7,5,1,0.57,Delayed,Medium,High,Poor
+O0014,2025-06-19,P005,Product 33,Furniture,S001,Alpha Supplies,India,Warehouse C,USA,Sea,FedEx,23,382,8786,646,6,0,2,0,0.0,On Time,High,High,Poor
+O0015,2025-02-18,P007,Product 43,Clothing,S005,Sakura Co,Japan,Warehouse C,USA,Road,BlueDart,152,262,39824,248,15,7,5,3,1.97,Delayed,Medium,High,Poor
+O0016,2025-02-25,P016,Product 13,Furniture,S001,Alpha Supplies,India,Warehouse D,UAE,Road,FedEx,177,354,62658,661,3,1,5,5,2.82,On Time,High,Low,Excellent
+O0017,2025-11-30,P035,Product 1,Electronics,S003,Euro Source,Germany,Warehouse B,UAE,Road,BlueDart,123,147,18081,895,10,1,2,0,0.0,On Time,High,High,Poor
+O0018,2025-07-19,P017,Product 30,Grocery,S004,Prime USA,USA,Warehouse D,Singapore,Road,FedEx,59,462,27258,410,5,0,5,0,0.0,On Time,Medium,Low,Excellent
+O0019,2025-01-30,P004,Product 38,Clothing,S002,Dragon Trade,China,Warehouse B,India,Air,FedEx,80,131,10480,991,12,0,2,5,6.25,On Time,High,High,Poor
+O0020,2025-05-07,P038,Product 39,Electronics,S001,Alpha Supplies,India,Warehouse A,USA,Rail,UPS,157,54,8478,691,9,3,2,9,5.73,Delayed,High,High,Poor
+O0021,2025-12-10,P042,Product 20,Clothing,S002,Dragon Trade,China,Warehouse C,India,Air,BlueDart,176,386,67936,321,7,3,5,2,1.14,Delayed,Medium,Medium,Good
+O0022,2025-06-28,P005,Product 16,Grocery,S005,Sakura Co,Japan,Warehouse C,UAE,Road,UPS,149,71,10579,75,6,8,4,2,1.34,Delayed,Low,High,Poor
+O0023,2025-02-23,P009,Product 17,Electronics,S005,Sakura Co,Japan,Warehouse A,Singapore,Sea,UPS,172,290,49880,8,11,10,4,10,5.81,Delayed,Low,High,Poor
+O0024,2025-09-08,P017,Product 4,Electronics,S003,Euro Source,Germany,Warehouse D,Germany,Air,DHL,159,127,20193,734,6,5,4,8,5.03,Delayed,High,Medium,Good
+O0025,2025-12-28,P028,Product 36,Electronics,S003,Euro Source,Germany,Warehouse A,India,Sea,DHL,38,346,13148,268,14,2,5,8,21.05,On Time,Medium,Low,Excellent
+O0026,2025-07-06,P003,Product 23,Furniture,S003,Euro Source,Germany,Warehouse B,India,Rail,BlueDart,154,302,46508,151,5,6,2,4,2.6,Delayed,Medium,High,Poor
+O0027,2025-01-13,P012,Product 48,Grocery,S005,Sakura Co,Japan,Warehouse D,UAE,Rail,FedEx,196,99,19404,947,5,3,3,6,3.06,Delayed,High,Medium,Good
+O0028,2025-06-29,P020,Product 15,Furniture,S001,Alpha Supplies,India,Warehouse A,UAE,Road,UPS,102,466,47532,39,6,7,3,7,6.86,Delayed,Low,High,Poor
+O0029,2025-10-02,P022,Product 2,Electronics,S003,Euro Source,Germany,Warehouse C,UAE,Rail,DHL,22,415,9130,285,13,5,5,10,45.45,Delayed,Medium,Medium,Good
+O0030,2025-10-23,P013,Product 17,Electronics,S001,Alpha Supplies,India,Warehouse D,India,Sea,UPS,157,242,37994,353,9,5,2,6,3.82,Delayed,Medium,High,Poor
+O0031,2025-03-05,P047,Product 20,Medical,S004,Prime USA,USA,Warehouse C,USA,Rail,BlueDart,22,360,7920,942,12,5,4,10,45.45,Delayed,High,Medium,Good
+O0032,2025-03-31,P040,Product 37,Grocery,S003,Euro Source,Germany,Warehouse D,Singapore,Air,UPS,146,85,12410,196,13,6,5,10,6.85,Delayed,Medium,Medium,Good
+O0033,2025-08-15,P029,Product 44,Furniture,S003,Euro Source,Germany,Warehouse D,UAE,Air,UPS,58,240,13920,804,12,9,4,7,12.07,Delayed,High,High,Poor
+O0034,2025-06-08,P015,Product 13,Furniture,S005,Sakura Co,Japan,Warehouse A,India,Sea,BlueDart,174,344,59856,634,4,5,3,10,5.75,Delayed,High,Medium,Good
+O0035,2025-09-11,P026,Product 16,Furniture,S005,Sakura Co,Japan,Warehouse A,India,Road,FedEx,23,253,5819,424,12,10,3,6,26.09,Delayed,Medium,High,Poor
+O0036,2025-08-22,P009,Product 30,Medical,S002,Dragon Trade,China,Warehouse C,USA,Road,BlueDart,183,285,52155,475,11,0,3,1,0.55,On Time,Medium,Low,Excellent
+O0037,2025-05-22,P050,Product 50,Medical,S002,Dragon Trade,China,Warehouse D,UAE,Rail,BlueDart,195,461,89895,486,7,7,3,10,5.13,Delayed,Medium,High,Poor
+O0038,2025-02-11,P009,Product 10,Furniture,S001,Alpha Supplies,India,Warehouse D,UAE,Sea,DHL,187,166,31042,240,8,4,4,8,4.28,Delayed,Medium,Medium,Good
+O0039,2025-08-04,P025,Product 50,Medical,S004,Prime USA,USA,Warehouse A,Singapore,Road,BlueDart,109,189,20601,555,9,7,2,3,2.75,Delayed,High,High,Poor
+O0040,2025-04-23,P018,Product 28,Clothing,S001,Alpha Supplies,India,Warehouse A,USA,Rail,BlueDart,95,172,16340,771,9,6,3,7,7.37,Delayed,High,Medium,Good
+O0041,2025-10-31,P037,Product 43,Electronics,S002,Dragon Trade,China,Warehouse A,USA,Sea,BlueDart,124,490,60760,130,11,9,2,6,4.84,Delayed,Low,High,Poor
+O0042,2025-06-22,P049,Product 25,Grocery,S002,Dragon Trade,China,Warehouse D,Germany,Air,BlueDart,17,153,2601,388,6,5,5,5,29.41,Delayed,Medium,Medium,Good
+O0043,2025-01-21,P049,Product 2,Furniture,S001,Alpha Supplies,India,Warehouse B,India,Sea,FedEx,196,296,58016,53,6,5,2,10,5.1,Delayed,Low,High,Poor
+O0044,2025-07-08,P011,Product 39,Medical,S002,Dragon Trade,China,Warehouse A,UAE,Rail,DHL,126,362,45612,117,6,9,5,4,3.17,Delayed,Low,High,Poor
+O0045,2025-04-12,P005,Product 38,Furniture,S005,Sakura Co,Japan,Warehouse A,Germany,Air,DHL,11,495,5445,319,13,9,5,6,54.55,Delayed,Medium,High,Poor
+O0046,2025-08-04,P032,Product 7,Clothing,S003,Euro Source,Germany,Warehouse C,USA,Sea,BlueDart,141,239,33699,677,4,5,4,0,0.0,Delayed,High,Medium,Good
+O0047,2025-08-12,P047,Product 38,Grocery,S002,Dragon Trade,China,Warehouse C,UAE,Air,UPS,192,287,55104,988,7,10,5,7,3.65,Delayed,High,High,Poor
+O0048,2025-01-15,P032,Product 21,Furniture,S004,Prime USA,USA,Warehouse D,UAE,Rail,UPS,67,404,27068,475,12,9,5,5,7.46,Delayed,Medium,High,Poor
+O0049,2025-04-08,P006,Product 16,Clothing,S003,Euro Source,Germany,Warehouse D,Singapore,Sea,BlueDart,76,470,35720,610,11,4,2,8,10.53,Delayed,High,High,Poor
+O0050,2025-12-21,P016,Product 20,Medical,S004,Prime USA,USA,Warehouse C,USA,Rail,BlueDart,119,425,50575,17,7,1,3,6,5.04,On Time,Low,Low,Excellent
+O0051,2025-04-29,P008,Product 47,Furniture,S005,Sakura Co,Japan,Warehouse C,India,Sea,FedEx,89,200,17800,719,7,7,4,4,4.49,Delayed,High,High,Poor
+O0052,2025-04-10,P019,Product 15,Grocery,S002,Dragon Trade,China,Warehouse B,Germany,Air,FedEx,194,267,51798,283,15,9,4,1,0.52,Delayed,Medium,High,Poor
+O0053,2025-09-09,P007,Product 1,Medical,S003,Euro Source,Germany,Warehouse C,USA,Road,BlueDart,16,47,752,566,14,4,3,10,62.5,Delayed,High,Medium,Good
+O0054,2025-09-09,P005,Product 37,Electronics,S003,Euro Source,Germany,Warehouse B,UAE,Rail,DHL,52,46,2392,258,4,7,2,6,11.54,Delayed,Medium,High,Poor
+O0055,2025-07-14,P029,Product 29,Grocery,S002,Dragon Trade,China,Warehouse D,Germany,Air,DHL,35,305,10675,782,12,6,3,8,22.86,Delayed,High,Medium,Good
+O0056,2025-03-30,P036,Product 5,Furniture,S002,Dragon Trade,China,Warehouse A,USA,Road,BlueDart,165,128,21120,270,4,10,3,3,1.82,Delayed,Medium,High,Poor
+O0057,2025-12-18,P015,Product 17,Medical,S003,Euro Source,Germany,Warehouse B,USA,Air,FedEx,13,138,1794,295,14,4,5,1,7.69,Delayed,Medium,Medium,Good
+O0058,2025-11-01,P048,Product 37,Grocery,S002,Dragon Trade,China,Warehouse D,India,Road,UPS,73,443,32339,145,3,1,3,4,5.48,On Time,Low,Low,Excellent
+O0059,2025-01-21,P028,Product 48,Grocery,S004,Prime USA,USA,Warehouse C,India,Air,FedEx,74,276,20424,552,10,7,2,9,12.16,Delayed,High,High,Poor
+O0060,2025-08-29,P034,Product 42,Clothing,S005,Sakura Co,Japan,Warehouse C,UAE,Road,BlueDart,155,30,4650,783,7,10,2,2,1.29,Delayed,High,High,Poor
+O0061,2025-06-18,P027,Product 45,Clothing,S001,Alpha Supplies,India,Warehouse C,USA,Air,BlueDart,125,198,24750,418,8,5,2,2,1.6,Delayed,Medium,High,Poor
+O0062,2025-01-01,P043,Product 35,Clothing,S001,Alpha Supplies,India,Warehouse D,India,Sea,UPS,85,149,12665,331,15,1,5,8,9.41,On Time,Medium,Low,Excellent
+O0063,2025-05-17,P036,Product 9,Grocery,S005,Sakura Co,Japan,Warehouse D,USA,Air,DHL,198,275,54450,640,15,7,2,3,1.52,Delayed,High,High,Poor
+O0064,2025-07-28,P006,Product 15,Electronics,S005,Sakura Co,Japan,Warehouse D,India,Sea,BlueDart,66,383,25278,162,11,4,2,8,12.12,Delayed,Medium,High,Poor
+O0065,2025-08-22,P036,Product 10,Clothing,S003,Euro Source,Germany,Warehouse B,Singapore,Sea,DHL,135,381,51435,279,10,6,5,3,2.22,Delayed,Medium,Medium,Good
+O0066,2025-06-02,P038,Product 38,Clothing,S003,Euro Source,Germany,Warehouse B,USA,Road,UPS,111,194,21534,956,7,8,2,4,3.6,Delayed,High,High,Poor
+O0067,2025-12-24,P016,Product 37,Clothing,S003,Euro Source,Germany,Warehouse B,USA,Air,UPS,146,410,59860,556,10,6,4,3,2.05,Delayed,High,Medium,Good
+O0068,2025-01-19,P009,Product 33,Medical,S004,Prime USA,USA,Warehouse C,India,Road,DHL,185,487,90095,830,9,6,3,7,3.78,Delayed,High,Medium,Good
+O0069,2025-08-29,P017,Product 22,Medical,S005,Sakura Co,Japan,Warehouse D,India,Rail,BlueDart,121,27,3267,739,9,2,3,1,0.83,On Time,High,Low,Excellent
+O0070,2025-02-05,P016,Product 41,Grocery,S003,Euro Source,Germany,Warehouse B,India,Road,DHL,165,387,63855,908,11,7,2,9,5.45,Delayed,High,High,Poor
+O0071,2025-01-29,P019,Product 23,Grocery,S001,Alpha Supplies,India,Warehouse D,UAE,Sea,BlueDart,118,105,12390,710,3,4,2,5,4.24,Delayed,High,High,Poor
+O0072,2025-07-15,P040,Product 44,Furniture,S005,Sakura Co,Japan,Warehouse D,Singapore,Sea,FedEx,179,425,76075,184,5,2,2,9,5.03,On Time,Medium,High,Poor
+O0073,2025-05-28,P044,Product 35,Furniture,S004,Prime USA,USA,Warehouse A,USA,Rail,UPS,168,150,25200,470,13,4,2,7,4.17,Delayed,Medium,High,Poor
+O0074,2025-02-24,P016,Product 25,Medical,S004,Prime USA,USA,Warehouse C,Singapore,Rail,UPS,181,148,26788,467,6,4,5,7,3.87,Delayed,Medium,Medium,Good
+O0075,2025-09-12,P019,Product 50,Furniture,S001,Alpha Supplies,India,Warehouse C,UAE,Sea,UPS,173,222,38406,281,12,0,2,9,5.2,On Time,Medium,High,Poor
+O0076,2025-08-14,P003,Product 38,Grocery,S002,Dragon Trade,China,Warehouse B,India,Rail,UPS,165,69,11385,925,13,10,2,4,2.42,Delayed,High,High,Poor
+O0077,2025-05-12,P031,Product 19,Grocery,S004,Prime USA,USA,Warehouse A,USA,Air,FedEx,49,122,5978,135,8,8,4,2,4.08,Delayed,Low,High,Poor
+O0078,2025-07-22,P001,Product 17,Medical,S002,Dragon Trade,China,Warehouse A,USA,Rail,UPS,178,390,69420,690,15,6,4,1,0.56,Delayed,High,Medium,Good
+O0079,2025-01-13,P040,Product 36,Grocery,S005,Sakura Co,Japan,Warehouse B,India,Road,UPS,102,441,44982,653,4,5,3,7,6.86,Delayed,High,Medium,Good
+O0080,2025-02-19,P016,Product 35,Furniture,S004,Prime USA,USA,Warehouse D,USA,Rail,BlueDart,34,91,3094,46,7,0,5,1,2.94,On Time,Low,Low,Excellent
+O0081,2025-11-12,P027,Product 18,Electronics,S005,Sakura Co,Japan,Warehouse C,UAE,Road,BlueDart,195,392,76440,158,13,6,2,7,3.59,Delayed,Medium,High,Poor
+O0082,2025-07-23,P018,Product 13,Electronics,S002,Dragon Trade,China,Warehouse D,India,Sea,DHL,97,70,6790,702,11,5,4,0,0.0,Delayed,High,Medium,Good
+O0083,2025-04-17,P038,Product 14,Furniture,S001,Alpha Supplies,India,Warehouse C,UAE,Air,UPS,90,144,12960,128,6,9,2,8,8.89,Delayed,Low,High,Poor
+O0084,2025-01-08,P023,Product 16,Medical,S002,Dragon Trade,China,Warehouse C,India,Sea,UPS,38,296,11248,256,4,2,2,2,5.26,On Time,Medium,High,Poor
+O0085,2025-08-18,P050,Product 24,Medical,S001,Alpha Supplies,India,Warehouse A,USA,Sea,DHL,37,399,14763,431,4,8,2,7,18.92,Delayed,Medium,High,Poor
+O0086,2025-08-07,P044,Product 7,Clothing,S005,Sakura Co,Japan,Warehouse D,India,Air,UPS,82,254,20828,658,3,0,5,6,7.32,On Time,High,Low,Excellent
+O0087,2025-11-02,P034,Product 19,Clothing,S005,Sakura Co,Japan,Warehouse D,India,Air,FedEx,42,53,2226,129,12,4,4,6,14.29,Delayed,Low,Medium,Good
+O0088,2025-08-01,P047,Product 7,Grocery,S004,Prime USA,USA,Warehouse D,Germany,Rail,UPS,120,474,56880,233,8,6,5,6,5.0,Delayed,Medium,Medium,Good
+O0089,2025-08-10,P007,Product 48,Grocery,S002,Dragon Trade,China,Warehouse B,Singapore,Air,UPS,180,492,88560,485,4,1,2,1,0.56,On Time,Medium,High,Poor
+O0090,2025-05-28,P039,Product 20,Grocery,S001,Alpha Supplies,India,Warehouse A,Singapore,Sea,FedEx,110,201,22110,894,15,10,5,0,0.0,Delayed,High,High,Poor
+O0091,2025-05-23,P037,Product 15,Clothing,S004,Prime USA,USA,Warehouse A,Singapore,Rail,DHL,62,453,28086,110,11,5,4,1,1.61,Delayed,Low,Medium,Good
+O0092,2025-04-03,P010,Product 37,Clothing,S002,Dragon Trade,China,Warehouse A,UAE,Air,DHL,74,379,28046,780,8,4,4,0,0.0,Delayed,High,Medium,Good
+O0093,2025-06-09,P047,Product 21,Medical,S005,Sakura Co,Japan,Warehouse A,India,Sea,FedEx,60,212,12720,429,8,7,3,5,8.33,Delayed,Medium,High,Poor
+O0094,2025-11-07,P029,Product 27,Grocery,S005,Sakura Co,Japan,Warehouse B,Singapore,Air,UPS,17,365,6205,83,10,4,5,7,41.18,Delayed,Low,Medium,Good
+O0095,2025-12-08,P020,Product 3,Furniture,S004,Prime USA,USA,Warehouse D,Singapore,Air,DHL,33,165,5445,694,12,10,5,8,24.24,Delayed,High,High,Poor
+O0096,2025-06-17,P008,Product 1,Clothing,S002,Dragon Trade,China,Warehouse D,UAE,Sea,BlueDart,82,128,10496,785,15,2,4,4,4.88,On Time,High,Low,Excellent
+O0097,2025-07-23,P048,Product 3,Clothing,S005,Sakura Co,Japan,Warehouse A,USA,Air,UPS,185,137,25345,512,13,8,4,1,0.54,Delayed,High,High,Poor
+O0098,2025-07-27,P002,Product 21,Furniture,S005,Sakura Co,Japan,Warehouse D,Germany,Air,BlueDart,114,313,35682,414,9,10,4,1,0.88,Delayed,Medium,High,Poor
+O0099,2025-06-08,P048,Product 22,Furniture,S001,Alpha Supplies,India,Warehouse C,UAE,Air,DHL,67,243,16281,603,11,6,2,6,8.96,Delayed,High,High,Poor
+O0100,2025-02-22,P010,Product 17,Furniture,S005,Sakura Co,Japan,Warehouse B,Singapore,Sea,DHL,135,119,16065,927,8,5,3,3,2.22,Delayed,High,Medium,Good
+O0101,2025-10-17,P042,Product 41,Medical,S002,Dragon Trade,China,Warehouse C,Germany,Sea,BlueDart,165,272,44880,475,15,9,5,10,6.06,Delayed,Medium,High,Poor
+O0102,2025-01-29,P023,Product 33,Electronics,S001,Alpha Supplies,India,Warehouse C,USA,Road,DHL,125,246,30750,646,15,4,4,9,7.2,Delayed,High,Medium,Good
+O0103,2025-11-01,P033,Product 25,Clothing,S001,Alpha Supplies,India,Warehouse A,USA,Sea,UPS,99,445,44055,293,13,1,2,9,9.09,On Time,Medium,High,Poor
+O0104,2025-02-13,P033,Product 42,Furniture,S005,Sakura Co,Japan,Warehouse A,UAE,Road,BlueDart,126,276,34776,154,10,0,2,5,3.97,On Time,Medium,High,Poor
+O0105,2025-07-29,P050,Product 22,Medical,S005,Sakura Co,Japan,Warehouse A,Germany,Air,UPS,138,332,45816,162,8,5,4,6,4.35,Delayed,Medium,Medium,Good
+O0106,2025-02-11,P038,Product 43,Furniture,S001,Alpha Supplies,India,Warehouse C,Germany,Road,FedEx,147,367,53949,395,7,4,3,5,3.4,Delayed,Medium,Medium,Good
+O0107,2025-06-18,P009,Product 43,Medical,S005,Sakura Co,Japan,Warehouse A,USA,Rail,DHL,186,500,93000,86,11,4,5,10,5.38,Delayed,Low,Medium,Good
+O0108,2025-04-26,P009,Product 10,Electronics,S003,Euro Source,Germany,Warehouse C,India,Air,UPS,84,112,9408,973,8,3,5,3,3.57,Delayed,High,Medium,Good
+O0109,2025-03-26,P047,Product 29,Electronics,S005,Sakura Co,Japan,Warehouse D,Germany,Sea,BlueDart,38,325,12350,385,5,2,3,9,23.68,On Time,Medium,Low,Excellent
+O0110,2025-08-29,P013,Product 24,Medical,S005,Sakura Co,Japan,Warehouse D,USA,Rail,BlueDart,77,405,31185,766,6,7,3,4,5.19,Delayed,High,High,Poor
+O0111,2025-01-27,P042,Product 31,Grocery,S005,Sakura Co,Japan,Warehouse A,Singapore,Air,UPS,140,234,32760,989,6,2,3,4,2.86,On Time,High,Low,Excellent
+O0112,2025-02-16,P015,Product 29,Grocery,S001,Alpha Supplies,India,Warehouse A,USA,Air,BlueDart,200,102,20400,279,11,7,3,6,3.0,Delayed,Medium,High,Poor
+O0113,2025-06-13,P007,Product 46,Grocery,S005,Sakura Co,Japan,Warehouse B,UAE,Air,UPS,100,140,14000,395,8,1,3,0,0.0,On Time,Medium,Low,Excellent
+O0114,2025-01-10,P017,Product 14,Furniture,S004,Prime USA,USA,Warehouse D,India,Rail,FedEx,183,445,81435,142,10,7,2,1,0.55,Delayed,Low,High,Poor
+O0115,2025-02-26,P032,Product 39,Medical,S003,Euro Source,Germany,Warehouse A,Singapore,Sea,FedEx,36,44,1584,244,13,6,5,1,2.78,Delayed,Medium,Medium,Good
+O0116,2025-12-07,P043,Product 6,Medical,S003,Euro Source,Germany,Warehouse C,India,Air,BlueDart,114,20,2280,629,6,5,5,2,1.75,Delayed,High,Medium,Good
+O0117,2025-02-04,P023,Product 16,Electronics,S004,Prime USA,USA,Warehouse C,UAE,Air,UPS,16,345,5520,396,7,5,2,5,31.25,Delayed,Medium,High,Poor
+O0118,2025-11-20,P012,Product 9,Electronics,S005,Sakura Co,Japan,Warehouse D,India,Rail,FedEx,91,436,39676,658,15,2,5,7,7.69,On Time,High,Low,Excellent
+O0119,2025-08-31,P017,Product 3,Furniture,S001,Alpha Supplies,India,Warehouse C,Germany,Air,UPS,56,473,26488,42,7,5,5,8,14.29,Delayed,Low,Medium,Good
+O0120,2025-06-23,P012,Product 32,Clothing,S003,Euro Source,Germany,Warehouse C,Singapore,Rail,DHL,36,429,15444,376,9,6,5,6,16.67,Delayed,Medium,Medium,Good
+O0121,2025-02-22,P006,Product 21,Grocery,S004,Prime USA,USA,Warehouse C,USA,Road,FedEx,25,240,6000,616,11,2,4,5,20.0,On Time,High,Low,Excellent
+O0122,2025-11-24,P004,Product 5,Clothing,S004,Prime USA,USA,Warehouse C,Singapore,Sea,DHL,94,248,23312,43,12,5,5,4,4.26,Delayed,Low,Medium,Good
+O0123,2025-05-01,P050,Product 42,Grocery,S002,Dragon Trade,China,Warehouse C,USA,Air,FedEx,160,367,58720,800,3,7,3,1,0.62,Delayed,High,High,Poor
+O0124,2025-07-07,P026,Product 21,Grocery,S004,Prime USA,USA,Warehouse B,India,Air,FedEx,99,210,20790,454,12,1,3,8,8.08,On Time,Medium,Low,Excellent
+O0125,2025-12-27,P029,Product 14,Medical,S004,Prime USA,USA,Warehouse C,USA,Sea,DHL,137,218,29866,935,4,8,4,4,2.92,Delayed,High,High,Poor
+O0126,2025-06-27,P046,Product 5,Medical,S002,Dragon Trade,China,Warehouse C,Germany,Sea,FedEx,23,251,5773,176,4,7,4,10,43.48,Delayed,Medium,High,Poor
+O0127,2025-09-10,P002,Product 24,Medical,S003,Euro Source,Germany,Warehouse C,USA,Sea,DHL,135,134,18090,124,15,3,3,3,2.22,Delayed,Low,Medium,Good
+O0128,2025-10-22,P005,Product 9,Grocery,S001,Alpha Supplies,India,Warehouse A,USA,Road,UPS,84,223,18732,734,11,7,5,6,7.14,Delayed,High,High,Poor
+O0129,2025-09-15,P004,Product 8,Medical,S002,Dragon Trade,China,Warehouse B,Germany,Sea,FedEx,146,347,50662,601,15,2,3,6,4.11,On Time,High,Low,Excellent
+O0130,2025-04-11,P041,Product 36,Grocery,S003,Euro Source,Germany,Warehouse B,Germany,Air,FedEx,186,135,25110,354,7,8,2,4,2.15,Delayed,Medium,High,Poor
+O0131,2025-01-22,P002,Product 6,Electronics,S005,Sakura Co,Japan,Warehouse C,UAE,Road,DHL,153,98,14994,175,12,10,4,9,5.88,Delayed,Medium,High,Poor
+O0132,2025-12-17,P026,Product 20,Clothing,S004,Prime USA,USA,Warehouse A,India,Sea,BlueDart,165,299,49335,296,7,10,5,3,1.82,Delayed,Medium,High,Poor
+O0133,2025-06-13,P047,Product 23,Clothing,S004,Prime USA,USA,Warehouse B,Germany,Air,UPS,128,257,32896,208,12,5,3,5,3.91,Delayed,Medium,Medium,Good
+O0134,2025-01-26,P019,Product 25,Medical,S002,Dragon Trade,China,Warehouse D,UAE,Sea,UPS,124,82,10168,273,6,7,3,1,0.81,Delayed,Medium,High,Poor
+O0135,2025-06-07,P032,Product 2,Electronics,S005,Sakura Co,Japan,Warehouse D,Singapore,Road,FedEx,189,180,34020,194,10,2,5,7,3.7,On Time,Medium,Low,Excellent
+O0136,2025-12-01,P044,Product 31,Grocery,S002,Dragon Trade,China,Warehouse A,India,Road,FedEx,154,200,30800,49,7,0,5,9,5.84,On Time,Low,Low,Excellent
+O0137,2025-01-27,P037,Product 36,Furniture,S003,Euro Source,Germany,Warehouse C,Singapore,Rail,DHL,191,207,39537,782,8,6,2,6,3.14,Delayed,High,High,Poor
+O0138,2025-02-19,P026,Product 24,Grocery,S004,Prime USA,USA,Warehouse C,UAE,Sea,BlueDart,134,250,33500,782,7,8,2,2,1.49,Delayed,High,High,Poor
+O0139,2025-09-23,P030,Product 10,Medical,S005,Sakura Co,Japan,Warehouse B,Germany,Rail,FedEx,15,43,645,39,14,2,4,7,46.67,On Time,Low,Low,Excellent
+O0140,2025-09-18,P035,Product 32,Medical,S004,Prime USA,USA,Warehouse C,USA,Air,UPS,162,398,64476,862,12,4,4,8,4.94,Delayed,High,Medium,Good
+O0141,2025-08-31,P017,Product 42,Medical,S003,Euro Source,Germany,Warehouse B,India,Road,FedEx,177,76,13452,426,7,9,2,9,5.08,Delayed,Medium,High,Poor
+O0142,2025-10-21,P045,Product 8,Furniture,S005,Sakura Co,Japan,Warehouse A,USA,Rail,BlueDart,166,389,64574,634,5,6,3,0,0.0,Delayed,High,Medium,Good
+O0143,2025-12-28,P009,Product 34,Furniture,S002,Dragon Trade,China,Warehouse C,USA,Road,UPS,110,373,41030,208,11,6,5,0,0.0,Delayed,Medium,Medium,Good
+O0144,2025-12-15,P042,Product 45,Grocery,S002,Dragon Trade,China,Warehouse D,UAE,Sea,UPS,122,487,59414,545,11,5,4,10,8.2,Delayed,High,Medium,Good
+O0145,2025-12-20,P046,Product 32,Grocery,S005,Sakura Co,Japan,Warehouse D,Germany,Rail,UPS,81,135,10935,964,15,4,4,3,3.7,Delayed,High,Medium,Good
+O0146,2025-05-29,P003,Product 19,Electronics,S001,Alpha Supplies,India,Warehouse C,USA,Rail,BlueDart,151,366,55266,556,9,6,4,2,1.32,Delayed,High,Medium,Good
+O0147,2025-02-25,P040,Product 48,Medical,S002,Dragon Trade,China,Warehouse B,UAE,Air,FedEx,56,443,24808,551,11,4,4,2,3.57,Delayed,High,Medium,Good
+O0148,2025-12-15,P050,Product 9,Electronics,S002,Dragon Trade,China,Warehouse B,USA,Road,BlueDart,18,71,1278,423,14,5,5,1,5.56,Delayed,Medium,Medium,Good
+O0149,2025-11-30,P037,Product 15,Medical,S002,Dragon Trade,China,Warehouse A,UAE,Road,FedEx,198,167,33066,328,13,4,2,1,0.51,Delayed,Medium,High,Poor
+O0150,2025-01-05,P020,Product 37,Medical,S001,Alpha Supplies,India,Warehouse A,Germany,Rail,BlueDart,106,423,44838,507,14,2,4,0,0.0,On Time,High,Low,Excellent
+O0151,2025-04-09,P008,Product 22,Furniture,S005,Sakura Co,Japan,Warehouse D,Germany,Sea,DHL,139,272,37808,910,11,2,5,4,2.88,On Time,High,Low,Excellent
+O0152,2025-09-21,P021,Product 6,Clothing,S003,Euro Source,Germany,Warehouse A,UAE,Sea,BlueDart,80,310,24800,690,5,3,5,6,7.5,Delayed,High,Medium,Good
+O0153,2025-06-18,P020,Product 38,Medical,S003,Euro Source,Germany,Warehouse A,Germany,Rail,FedEx,68,23,1564,267,6,6,5,4,5.88,Delayed,Medium,Medium,Good
+O0154,2025-09-15,P046,Product 50,Grocery,S001,Alpha Supplies,India,Warehouse A,Germany,Rail,FedEx,175,80,14000,476,5,4,5,10,5.71,Delayed,Medium,Medium,Good
+O0155,2025-12-26,P036,Product 31,Medical,S002,Dragon Trade,China,Warehouse B,UAE,Air,BlueDart,39,264,10296,156,14,7,4,6,15.38,Delayed,Medium,High,Poor
+O0156,2025-09-16,P013,Product 37,Medical,S005,Sakura Co,Japan,Warehouse B,UAE,Rail,BlueDart,185,205,37925,79,4,9,2,8,4.32,Delayed,Low,High,Poor
+O0157,2025-08-17,P004,Product 30,Furniture,S001,Alpha Supplies,India,Warehouse D,USA,Air,BlueDart,179,125,22375,734,10,9,2,8,4.47,Delayed,High,High,Poor
+O0158,2025-02-07,P003,Product 28,Grocery,S003,Euro Source,Germany,Warehouse A,Singapore,Air,DHL,190,31,5890,405,3,4,3,9,4.74,Delayed,Medium,Medium,Good
+O0159,2025-11-27,P027,Product 24,Clothing,S004,Prime USA,USA,Warehouse D,USA,Road,DHL,13,166,2158,418,15,2,3,10,76.92,On Time,Medium,Low,Excellent
+O0160,2025-07-21,P034,Product 9,Furniture,S005,Sakura Co,Japan,Warehouse A,India,Rail,BlueDart,39,354,13806,880,4,5,3,8,20.51,Delayed,High,Medium,Good
+O0161,2025-03-21,P018,Product 13,Electronics,S005,Sakura Co,Japan,Warehouse A,USA,Air,FedEx,113,292,32996,388,6,3,5,5,4.42,Delayed,Medium,Medium,Good
+O0162,2025-01-23,P026,Product 29,Furniture,S002,Dragon Trade,China,Warehouse B,India,Sea,UPS,22,71,1562,608,10,0,2,3,13.64,On Time,High,High,Poor
+O0163,2025-06-04,P010,Product 43,Medical,S002,Dragon Trade,China,Warehouse B,USA,Rail,UPS,192,314,60288,326,12,9,4,3,1.56,Delayed,Medium,High,Poor
+O0164,2025-09-11,P004,Product 23,Clothing,S001,Alpha Supplies,India,Warehouse C,USA,Road,FedEx,147,322,47334,900,13,2,5,8,5.44,On Time,High,Low,Excellent
+O0165,2025-06-03,P046,Product 10,Clothing,S003,Euro Source,Germany,Warehouse A,Singapore,Road,BlueDart,101,114,11514,772,10,8,3,3,2.97,Delayed,High,High,Poor
+O0166,2025-11-28,P006,Product 29,Grocery,S005,Sakura Co,Japan,Warehouse A,Singapore,Sea,DHL,140,88,12320,397,7,3,3,5,3.57,Delayed,Medium,Medium,Good
+O0167,2025-10-28,P047,Product 43,Medical,S003,Euro Source,Germany,Warehouse B,USA,Sea,UPS,101,364,36764,619,3,9,2,3,2.97,Delayed,High,High,Poor
+O0168,2025-05-05,P045,Product 39,Furniture,S003,Euro Source,Germany,Warehouse D,UAE,Rail,UPS,8,128,1024,959,14,3,2,7,87.5,Delayed,High,High,Poor
+O0169,2025-09-20,P032,Product 30,Electronics,S004,Prime USA,USA,Warehouse D,Germany,Sea,UPS,124,293,36332,664,7,5,4,5,4.03,Delayed,High,Medium,Good
+O0170,2025-05-14,P036,Product 38,Medical,S003,Euro Source,Germany,Warehouse D,Germany,Sea,FedEx,110,43,4730,576,14,3,3,0,0.0,Delayed,High,Medium,Good
+O0171,2025-09-08,P047,Product 42,Clothing,S003,Euro Source,Germany,Warehouse D,UAE,Rail,FedEx,63,214,13482,583,10,3,4,4,6.35,Delayed,High,Medium,Good
+O0172,2025-01-18,P005,Product 43,Electronics,S002,Dragon Trade,China,Warehouse A,USA,Sea,FedEx,189,299,56511,500,11,2,2,8,4.23,On Time,High,High,Poor
+O0173,2025-01-31,P040,Product 41,Medical,S001,Alpha Supplies,India,Warehouse D,USA,Air,DHL,186,97,18042,9,11,3,5,5,2.69,Delayed,Low,Medium,Good
+O0174,2025-05-27,P002,Product 33,Clothing,S005,Sakura Co,Japan,Warehouse B,India,Air,FedEx,146,230,33580,12,11,0,4,8,5.48,On Time,Low,Low,Excellent
+O0175,2025-02-10,P024,Product 26,Clothing,S002,Dragon Trade,China,Warehouse B,UAE,Rail,DHL,54,337,18198,539,8,4,4,6,11.11,Delayed,High,Medium,Good
+O0176,2025-11-23,P001,Product 45,Furniture,S001,Alpha Supplies,India,Warehouse A,USA,Road,UPS,28,227,6356,388,11,6,5,0,0.0,Delayed,Medium,Medium,Good
+O0177,2025-09-01,P018,Product 3,Electronics,S005,Sakura Co,Japan,Warehouse C,Singapore,Air,FedEx,29,478,13862,540,6,0,3,9,31.03,On Time,High,Low,Excellent
+O0178,2025-06-03,P011,Product 37,Furniture,S003,Euro Source,Germany,Warehouse D,Singapore,Rail,BlueDart,9,126,1134,601,15,2,5,1,11.11,On Time,High,Low,Excellent
+O0179,2025-02-20,P028,Product 15,Electronics,S002,Dragon Trade,China,Warehouse C,Singapore,Road,UPS,181,390,70590,80,14,8,4,0,0.0,Delayed,Low,High,Poor
+O0180,2025-10-11,P025,Product 28,Furniture,S001,Alpha Supplies,India,Warehouse D,India,Rail,FedEx,167,159,26553,802,10,7,3,5,2.99,Delayed,High,High,Poor
+O0181,2025-06-12,P024,Product 7,Electronics,S001,Alpha Supplies,India,Warehouse A,Germany,Road,UPS,26,157,4082,157,14,6,3,6,23.08,Delayed,Medium,Medium,Good
+O0182,2025-10-12,P033,Product 27,Electronics,S003,Euro Source,Germany,Warehouse A,India,Rail,DHL,31,87,2697,89,9,2,5,8,25.81,On Time,Low,Low,Excellent
+O0183,2025-07-18,P050,Product 6,Medical,S005,Sakura Co,Japan,Warehouse B,Singapore,Sea,BlueDart,158,421,66518,332,3,6,4,6,3.8,Delayed,Medium,Medium,Good
+O0184,2025-03-27,P028,Product 18,Clothing,S002,Dragon Trade,China,Warehouse C,USA,Air,UPS,40,157,6280,308,10,4,3,1,2.5,Delayed,Medium,Medium,Good
+O0185,2025-02-24,P009,Product 20,Electronics,S003,Euro Source,Germany,Warehouse D,Germany,Road,UPS,68,389,26452,640,12,7,3,7,10.29,Delayed,High,High,Poor
+O0186,2025-06-14,P039,Product 45,Furniture,S004,Prime USA,USA,Warehouse D,Germany,Sea,BlueDart,90,240,21600,835,12,10,3,4,4.44,Delayed,High,High,Poor
+O0187,2025-07-12,P018,Product 26,Grocery,S003,Euro Source,Germany,Warehouse A,Singapore,Sea,FedEx,79,396,31284,711,10,10,3,5,6.33,Delayed,High,High,Poor
+O0188,2025-07-29,P044,Product 32,Furniture,S005,Sakura Co,Japan,Warehouse C,UAE,Rail,FedEx,11,392,4312,472,10,3,4,1,9.09,Delayed,Medium,Medium,Good
+O0189,2025-09-17,P045,Product 27,Medical,S004,Prime USA,USA,Warehouse A,Germany,Air,DHL,101,57,5757,459,10,9,5,8,7.92,Delayed,Medium,High,Poor
+O0190,2025-11-27,P044,Product 42,Clothing,S002,Dragon Trade,China,Warehouse C,USA,Air,DHL,173,360,62280,363,13,2,2,9,5.2,On Time,Medium,High,Poor
+O0191,2025-07-11,P026,Product 30,Medical,S001,Alpha Supplies,India,Warehouse B,Germany,Air,BlueDart,71,133,9443,522,11,8,3,7,9.86,Delayed,High,High,Poor
+O0192,2025-06-09,P022,Product 30,Furniture,S001,Alpha Supplies,India,Warehouse D,Germany,Road,DHL,80,232,18560,942,4,1,3,5,6.25,On Time,High,Low,Excellent
+O0193,2025-12-30,P008,Product 2,Grocery,S004,Prime USA,USA,Warehouse A,UAE,Sea,FedEx,189,376,71064,463,4,5,4,0,0.0,Delayed,Medium,Medium,Good
+O0194,2025-11-19,P012,Product 12,Clothing,S005,Sakura Co,Japan,Warehouse D,India,Sea,BlueDart,45,189,8505,573,10,6,3,6,13.33,Delayed,High,Medium,Good
+O0195,2025-10-23,P007,Product 35,Furniture,S005,Sakura Co,Japan,Warehouse C,Germany,Sea,BlueDart,114,219,24966,4,6,3,4,1,0.88,Delayed,Low,Medium,Good
+O0196,2025-07-18,P040,Product 26,Medical,S001,Alpha Supplies,India,Warehouse A,Germany,Rail,BlueDart,72,363,26136,883,11,7,4,9,12.5,Delayed,High,High,Poor
+O0197,2025-03-10,P021,Product 8,Furniture,S005,Sakura Co,Japan,Warehouse C,India,Sea,UPS,49,436,21364,689,12,4,2,10,20.41,Delayed,High,High,Poor
+O0198,2025-04-06,P032,Product 41,Medical,S002,Dragon Trade,China,Warehouse B,Singapore,Sea,BlueDart,135,218,29430,428,5,9,5,6,4.44,Delayed,Medium,High,Poor
+O0199,2025-01-05,P032,Product 9,Furniture,S003,Euro Source,Germany,Warehouse D,Singapore,Road,BlueDart,40,115,4600,322,12,7,2,5,12.5,Delayed,Medium,High,Poor
+O0200,2025-10-17,P002,Product 49,Furniture,S004,Prime USA,USA,Warehouse C,India,Rail,FedEx,111,383,42513,860,10,7,3,1,0.9,Delayed,High,High,Poor
+O0201,2025-09-19,P008,Product 37,Electronics,S005,Sakura Co,Japan,Warehouse C,Singapore,Rail,DHL,78,106,8268,799,12,7,5,8,10.26,Delayed,High,High,Poor
+O0202,2025-01-17,P029,Product 17,Grocery,S004,Prime USA,USA,Warehouse A,USA,Air,FedEx,144,131,18864,435,14,1,3,4,2.78,On Time,Medium,Low,Excellent
+O0203,2025-11-12,P009,Product 14,Furniture,S002,Dragon Trade,China,Warehouse A,Singapore,Rail,UPS,193,321,61953,705,14,5,5,2,1.04,Delayed,High,Medium,Good
+O0204,2025-12-14,P007,Product 9,Clothing,S005,Sakura Co,Japan,Warehouse A,Germany,Sea,FedEx,142,106,15052,331,7,4,4,8,5.63,Delayed,Medium,Medium,Good
+O0205,2025-03-14,P037,Product 41,Grocery,S002,Dragon Trade,China,Warehouse D,USA,Road,DHL,42,384,16128,329,15,3,5,7,16.67,Delayed,Medium,Medium,Good
+O0206,2025-09-07,P021,Product 38,Electronics,S001,Alpha Supplies,India,Warehouse A,USA,Rail,DHL,108,283,30564,767,14,4,4,7,6.48,Delayed,High,Medium,Good
+O0207,2025-06-15,P019,Product 22,Medical,S005,Sakura Co,Japan,Warehouse B,Singapore,Road,UPS,106,131,13886,991,6,6,5,4,3.77,Delayed,High,Medium,Good
+O0208,2025-08-14,P030,Product 1,Clothing,S001,Alpha Supplies,India,Warehouse B,UAE,Rail,FedEx,16,70,1120,641,3,7,2,2,12.5,Delayed,High,High,Poor
+O0209,2025-11-29,P011,Product 4,Clothing,S003,Euro Source,Germany,Warehouse C,UAE,Road,DHL,28,355,9940,369,4,4,4,10,35.71,Delayed,Medium,Medium,Good
+O0210,2025-12-15,P029,Product 1,Electronics,S001,Alpha Supplies,India,Warehouse C,India,Road,FedEx,5,129,645,488,5,1,3,8,160.0,On Time,Medium,Low,Excellent
+O0211,2025-06-10,P024,Product 20,Furniture,S004,Prime USA,USA,Warehouse D,UAE,Sea,DHL,23,137,3151,392,14,1,2,1,4.35,On Time,Medium,High,Poor
+O0212,2025-04-20,P041,Product 48,Furniture,S005,Sakura Co,Japan,Warehouse D,Singapore,Road,FedEx,149,24,3576,624,5,10,5,5,3.36,Delayed,High,High,Poor
+O0213,2025-08-08,P021,Product 9,Furniture,S001,Alpha Supplies,India,Warehouse C,India,Sea,UPS,30,91,2730,770,12,1,5,5,16.67,On Time,High,Low,Excellent
+O0214,2025-06-01,P042,Product 4,Furniture,S001,Alpha Supplies,India,Warehouse D,USA,Air,FedEx,173,468,80964,308,11,3,3,6,3.47,Delayed,Medium,Medium,Good
+O0215,2025-03-09,P025,Product 37,Clothing,S004,Prime USA,USA,Warehouse C,Singapore,Sea,BlueDart,168,324,54432,72,3,8,4,5,2.98,Delayed,Low,High,Poor
+O0216,2025-01-31,P026,Product 33,Grocery,S001,Alpha Supplies,India,Warehouse D,USA,Road,DHL,9,320,2880,69,7,0,3,0,0.0,On Time,Low,Low,Excellent
+O0217,2025-09-19,P014,Product 10,Medical,S005,Sakura Co,Japan,Warehouse C,USA,Air,UPS,142,335,47570,156,4,4,4,1,0.7,Delayed,Medium,Medium,Good
+O0218,2025-03-01,P030,Product 40,Medical,S004,Prime USA,USA,Warehouse A,Germany,Sea,DHL,191,453,86523,244,6,0,2,6,3.14,On Time,Medium,High,Poor
+O0219,2025-09-25,P034,Product 47,Grocery,S001,Alpha Supplies,India,Warehouse B,Germany,Sea,UPS,186,90,16740,718,5,0,5,5,2.69,On Time,High,Low,Excellent
+O0220,2025-12-31,P037,Product 41,Electronics,S001,Alpha Supplies,India,Warehouse D,USA,Rail,DHL,12,191,2292,826,7,6,2,4,33.33,Delayed,High,High,Poor
+O0221,2025-12-12,P047,Product 8,Furniture,S004,Prime USA,USA,Warehouse A,India,Air,FedEx,150,105,15750,376,7,2,2,9,6.0,On Time,Medium,High,Poor
+O0222,2025-12-02,P027,Product 15,Grocery,S001,Alpha Supplies,India,Warehouse B,USA,Rail,UPS,125,206,25750,392,5,2,2,8,6.4,On Time,Medium,High,Poor
+O0223,2025-04-25,P034,Product 3,Clothing,S001,Alpha Supplies,India,Warehouse A,USA,Rail,UPS,151,210,31710,122,13,8,2,2,1.32,Delayed,Low,High,Poor
+O0224,2025-10-16,P020,Product 48,Medical,S003,Euro Source,Germany,Warehouse B,USA,Rail,BlueDart,27,303,8181,467,8,0,3,4,14.81,On Time,Medium,Low,Excellent
+O0225,2025-01-13,P015,Product 35,Grocery,S002,Dragon Trade,China,Warehouse A,Germany,Air,BlueDart,192,481,92352,559,5,3,2,6,3.12,Delayed,High,High,Poor
+O0226,2025-03-14,P046,Product 18,Electronics,S003,Euro Source,Germany,Warehouse A,UAE,Road,UPS,31,125,3875,542,9,3,5,0,0.0,Delayed,High,Medium,Good
+O0227,2025-07-21,P005,Product 38,Medical,S004,Prime USA,USA,Warehouse A,USA,Sea,FedEx,196,63,12348,594,11,1,3,10,5.1,On Time,High,Low,Excellent
+O0228,2025-08-20,P018,Product 15,Electronics,S003,Euro Source,Germany,Warehouse B,UAE,Air,FedEx,71,455,32305,322,14,6,4,5,7.04,Delayed,Medium,Medium,Good
+O0229,2025-07-03,P050,Product 14,Clothing,S001,Alpha Supplies,India,Warehouse C,USA,Rail,DHL,47,250,11750,477,9,5,2,8,17.02,Delayed,Medium,High,Poor
+O0230,2025-06-17,P010,Product 6,Furniture,S001,Alpha Supplies,India,Warehouse C,USA,Air,UPS,45,433,19485,702,14,4,2,3,6.67,Delayed,High,High,Poor
+O0231,2025-08-25,P007,Product 9,Electronics,S003,Euro Source,Germany,Warehouse A,India,Sea,FedEx,49,35,1715,974,10,6,3,1,2.04,Delayed,High,Medium,Good
+O0232,2025-10-28,P017,Product 5,Electronics,S002,Dragon Trade,China,Warehouse A,UAE,Road,FedEx,107,210,22470,702,13,10,2,9,8.41,Delayed,High,High,Poor
+O0233,2025-08-10,P047,Product 26,Clothing,S001,Alpha Supplies,India,Warehouse A,USA,Road,FedEx,89,82,7298,43,3,7,3,9,10.11,Delayed,Low,High,Poor
+O0234,2025-01-18,P040,Product 40,Medical,S003,Euro Source,Germany,Warehouse B,Germany,Road,BlueDart,59,485,28615,191,7,4,5,2,3.39,Delayed,Medium,Medium,Good
+O0235,2025-04-13,P042,Product 34,Furniture,S005,Sakura Co,Japan,Warehouse A,USA,Rail,BlueDart,127,51,6477,89,9,4,3,6,4.72,Delayed,Low,Medium,Good
+O0236,2025-05-19,P012,Product 2,Grocery,S005,Sakura Co,Japan,Warehouse B,India,Rail,DHL,129,196,25284,934,11,9,4,6,4.65,Delayed,High,High,Poor
+O0237,2025-05-07,P043,Product 16,Grocery,S004,Prime USA,USA,Warehouse A,UAE,Road,UPS,140,203,28420,785,6,9,3,1,0.71,Delayed,High,High,Poor
+O0238,2025-01-15,P046,Product 45,Grocery,S002,Dragon Trade,China,Warehouse B,Singapore,Sea,BlueDart,50,141,7050,606,15,5,4,9,18.0,Delayed,High,Medium,Good
+O0239,2025-11-05,P015,Product 2,Medical,S005,Sakura Co,Japan,Warehouse D,India,Rail,FedEx,84,109,9156,502,4,0,2,3,3.57,On Time,High,High,Poor
+O0240,2025-10-28,P046,Product 10,Electronics,S002,Dragon Trade,China,Warehouse C,India,Rail,BlueDart,92,387,35604,181,3,5,2,2,2.17,Delayed,Medium,High,Poor
+O0241,2025-11-24,P032,Product 42,Grocery,S005,Sakura Co,Japan,Warehouse B,Singapore,Rail,FedEx,30,192,5760,309,5,5,3,6,20.0,Delayed,Medium,Medium,Good
+O0242,2025-12-26,P037,Product 26,Medical,S005,Sakura Co,Japan,Warehouse A,UAE,Rail,FedEx,49,213,10437,314,5,4,3,0,0.0,Delayed,Medium,Medium,Good
+O0243,2025-06-27,P021,Product 11,Electronics,S005,Sakura Co,Japan,Warehouse C,USA,Air,UPS,31,499,15469,508,8,2,2,3,9.68,On Time,High,High,Poor
+O0244,2025-01-25,P025,Product 29,Clothing,S002,Dragon Trade,China,Warehouse B,USA,Road,BlueDart,68,374,25432,69,7,5,2,0,0.0,Delayed,Low,High,Poor
+O0245,2025-08-20,P005,Product 3,Grocery,S003,Euro Source,Germany,Warehouse A,Germany,Rail,DHL,144,212,30528,103,15,7,3,2,1.39,Delayed,Low,High,Poor
+O0246,2025-02-17,P022,Product 39,Medical,S001,Alpha Supplies,India,Warehouse D,India,Road,FedEx,92,107,9844,909,5,6,2,8,8.7,Delayed,High,High,Poor
+O0247,2025-07-29,P045,Product 36,Medical,S005,Sakura Co,Japan,Warehouse C,Germany,Rail,FedEx,116,100,11600,54,8,1,3,3,2.59,On Time,Low,Low,Excellent
+O0248,2025-07-04,P001,Product 28,Electronics,S001,Alpha Supplies,India,Warehouse C,Singapore,Road,FedEx,17,221,3757,585,10,8,3,0,0.0,Delayed,High,High,Poor
+O0249,2025-03-01,P020,Product 26,Clothing,S001,Alpha Supplies,India,Warehouse D,Germany,Air,BlueDart,11,125,1375,174,7,10,2,7,63.64,Delayed,Medium,High,Poor
+O0250,2025-05-15,P029,Product 30,Grocery,S002,Dragon Trade,China,Warehouse B,Germany,Air,FedEx,99,473,46827,390,5,5,5,0,0.0,Delayed,Medium,Medium,Good
+O0251,2025-02-01,P025,Product 34,Clothing,S001,Alpha Supplies,India,Warehouse D,Singapore,Sea,BlueDart,26,362,9412,352,9,8,3,8,30.77,Delayed,Medium,High,Poor
+O0252,2025-08-18,P012,Product 11,Furniture,S003,Euro Source,Germany,Warehouse B,UAE,Air,BlueDart,25,222,5550,924,11,0,3,1,4.0,On Time,High,Low,Excellent
+O0253,2025-02-04,P006,Product 25,Medical,S001,Alpha Supplies,India,Warehouse D,Singapore,Rail,UPS,179,242,43318,206,5,10,4,5,2.79,Delayed,Medium,High,Poor
+O0254,2025-08-01,P010,Product 10,Medical,S005,Sakura Co,Japan,Warehouse A,India,Air,UPS,122,489,59658,894,15,0,5,1,0.82,On Time,High,Low,Excellent
+O0255,2025-11-08,P031,Product 3,Furniture,S005,Sakura Co,Japan,Warehouse C,USA,Sea,BlueDart,93,469,43617,420,9,4,5,9,9.68,Delayed,Medium,Medium,Good
+O0256,2025-09-01,P018,Product 24,Electronics,S001,Alpha Supplies,India,Warehouse C,Germany,Rail,UPS,106,475,50350,900,14,5,3,0,0.0,Delayed,High,Medium,Good
+O0257,2025-06-14,P018,Product 47,Clothing,S004,Prime USA,USA,Warehouse A,UAE,Road,FedEx,183,370,67710,100,5,3,4,7,3.83,Delayed,Low,Medium,Good
+O0258,2025-03-23,P005,Product 20,Medical,S004,Prime USA,USA,Warehouse D,UAE,Air,FedEx,194,268,51992,777,8,8,2,8,4.12,Delayed,High,High,Poor
+O0259,2025-07-04,P046,Product 13,Grocery,S002,Dragon Trade,China,Warehouse C,USA,Road,DHL,56,448,25088,59,3,3,5,0,0.0,Delayed,Low,Medium,Good
+O0260,2025-10-28,P036,Product 23,Grocery,S001,Alpha Supplies,India,Warehouse B,Germany,Air,UPS,66,210,13860,500,10,9,3,7,10.61,Delayed,High,High,Poor
+O0261,2025-11-28,P015,Product 44,Furniture,S001,Alpha Supplies,India,Warehouse C,USA,Air,DHL,103,45,4635,166,15,9,3,3,2.91,Delayed,Medium,High,Poor
+O0262,2025-05-10,P039,Product 20,Grocery,S004,Prime USA,USA,Warehouse D,USA,Rail,BlueDart,38,351,13338,177,15,9,2,3,7.89,Delayed,Medium,High,Poor
+O0263,2025-02-22,P001,Product 33,Grocery,S003,Euro Source,Germany,Warehouse C,Germany,Air,BlueDart,60,258,15480,309,11,10,5,9,15.0,Delayed,Medium,High,Poor
+O0264,2025-12-31,P042,Product 20,Furniture,S001,Alpha Supplies,India,Warehouse B,Singapore,Sea,DHL,91,161,14651,655,7,5,4,10,10.99,Delayed,High,Medium,Good
+O0265,2025-09-12,P019,Product 17,Clothing,S005,Sakura Co,Japan,Warehouse D,USA,Air,FedEx,108,358,38664,327,5,10,2,10,9.26,Delayed,Medium,High,Poor
+O0266,2025-07-03,P033,Product 20,Furniture,S003,Euro Source,Germany,Warehouse B,Germany,Air,BlueDart,190,385,73150,227,11,10,5,10,5.26,Delayed,Medium,High,Poor
+O0267,2025-06-21,P042,Product 6,Furniture,S002,Dragon Trade,China,Warehouse C,UAE,Rail,BlueDart,194,152,29488,742,15,8,3,10,5.15,Delayed,High,High,Poor
+O0268,2025-01-28,P041,Product 38,Medical,S003,Euro Source,Germany,Warehouse A,USA,Sea,DHL,100,153,15300,599,10,4,2,7,7.0,Delayed,High,High,Poor
+O0269,2025-06-25,P027,Product 37,Clothing,S004,Prime USA,USA,Warehouse B,Germany,Sea,DHL,140,172,24080,423,5,0,3,3,2.14,On Time,Medium,Low,Excellent
+O0270,2025-08-20,P018,Product 14,Furniture,S004,Prime USA,USA,Warehouse B,USA,Air,FedEx,90,343,30870,181,13,5,2,0,0.0,Delayed,Medium,High,Poor
+O0271,2025-01-03,P003,Product 35,Furniture,S005,Sakura Co,Japan,Warehouse C,India,Rail,FedEx,116,344,39904,439,9,6,5,6,5.17,Delayed,Medium,Medium,Good
+O0272,2025-03-08,P007,Product 25,Medical,S001,Alpha Supplies,India,Warehouse C,UAE,Air,DHL,178,22,3916,641,6,3,4,4,2.25,Delayed,High,Medium,Good
+O0273,2025-12-18,P009,Product 22,Clothing,S003,Euro Source,Germany,Warehouse C,UAE,Sea,BlueDart,79,253,19987,745,12,8,4,6,7.59,Delayed,High,High,Poor
+O0274,2025-09-16,P011,Product 8,Grocery,S001,Alpha Supplies,India,Warehouse A,USA,Rail,DHL,63,134,8442,744,6,2,2,9,14.29,On Time,High,High,Poor
+O0275,2025-08-02,P029,Product 25,Electronics,S005,Sakura Co,Japan,Warehouse C,USA,Sea,FedEx,17,358,6086,110,3,10,2,1,5.88,Delayed,Low,High,Poor
+O0276,2025-11-07,P045,Product 9,Clothing,S001,Alpha Supplies,India,Warehouse A,Singapore,Air,UPS,82,235,19270,677,13,1,4,9,10.98,On Time,High,Low,Excellent
+O0277,2025-04-14,P023,Product 46,Clothing,S001,Alpha Supplies,India,Warehouse C,UAE,Air,BlueDart,32,274,8768,203,6,9,4,8,25.0,Delayed,Medium,High,Poor
+O0278,2025-12-10,P006,Product 8,Medical,S002,Dragon Trade,China,Warehouse D,UAE,Air,DHL,181,497,89957,492,6,5,2,0,0.0,Delayed,Medium,High,Poor
+O0279,2025-01-26,P007,Product 12,Electronics,S001,Alpha Supplies,India,Warehouse C,Germany,Rail,BlueDart,70,349,24430,236,7,7,4,7,10.0,Delayed,Medium,High,Poor
+O0280,2025-11-28,P011,Product 22,Grocery,S001,Alpha Supplies,India,Warehouse D,Singapore,Rail,DHL,29,455,13195,776,3,0,3,10,34.48,On Time,High,Low,Excellent
+O0281,2025-07-17,P045,Product 31,Clothing,S003,Euro Source,Germany,Warehouse B,India,Sea,DHL,92,113,10396,116,9,6,5,4,4.35,Delayed,Low,Medium,Good
+O0282,2025-11-09,P025,Product 50,Grocery,S002,Dragon Trade,China,Warehouse A,UAE,Road,BlueDart,31,233,7223,933,10,9,5,2,6.45,Delayed,High,High,Poor
+O0283,2025-12-27,P044,Product 34,Medical,S001,Alpha Supplies,India,Warehouse B,Germany,Air,BlueDart,110,245,26950,47,7,1,4,0,0.0,On Time,Low,Low,Excellent
+O0284,2025-10-13,P040,Product 4,Electronics,S002,Dragon Trade,China,Warehouse B,Singapore,Road,BlueDart,128,197,25216,679,13,10,5,2,1.56,Delayed,High,High,Poor
+O0285,2025-01-26,P033,Product 15,Medical,S002,Dragon Trade,China,Warehouse D,USA,Sea,DHL,24,404,9696,503,6,5,4,4,16.67,Delayed,High,Medium,Good
+O0286,2025-06-11,P008,Product 32,Electronics,S004,Prime USA,USA,Warehouse A,USA,Road,DHL,118,430,50740,586,4,7,5,7,5.93,Delayed,High,High,Poor
+O0287,2025-10-15,P014,Product 42,Clothing,S005,Sakura Co,Japan,Warehouse C,Germany,Air,FedEx,145,20,2900,845,15,1,4,8,5.52,On Time,High,Low,Excellent
+O0288,2025-07-06,P046,Product 29,Electronics,S004,Prime USA,USA,Warehouse A,UAE,Air,UPS,89,306,27234,785,12,9,5,10,11.24,Delayed,High,High,Poor
+O0289,2025-01-24,P011,Product 32,Furniture,S003,Euro Source,Germany,Warehouse D,India,Rail,FedEx,167,429,71643,298,11,8,4,1,0.6,Delayed,Medium,High,Poor
+O0290,2025-06-23,P007,Product 49,Clothing,S002,Dragon Trade,China,Warehouse A,Singapore,Air,BlueDart,35,496,17360,872,6,6,5,3,8.57,Delayed,High,Medium,Good
+O0291,2025-09-29,P048,Product 4,Medical,S004,Prime USA,USA,Warehouse D,Singapore,Road,FedEx,173,321,55533,979,5,8,5,0,0.0,Delayed,High,High,Poor
+O0292,2025-11-04,P039,Product 21,Medical,S005,Sakura Co,Japan,Warehouse D,USA,Sea,UPS,49,394,19306,834,4,2,5,10,20.41,On Time,High,Low,Excellent
+O0293,2025-12-25,P048,Product 33,Grocery,S004,Prime USA,USA,Warehouse C,Singapore,Sea,FedEx,92,170,15640,463,5,2,5,9,9.78,On Time,Medium,Low,Excellent
+O0294,2025-04-02,P033,Product 35,Grocery,S002,Dragon Trade,China,Warehouse A,Germany,Road,BlueDart,164,385,63140,297,8,10,3,10,6.1,Delayed,Medium,High,Poor
+O0295,2025-02-24,P002,Product 25,Furniture,S005,Sakura Co,Japan,Warehouse A,India,Sea,UPS,78,469,36582,867,15,6,2,8,10.26,Delayed,High,High,Poor
+O0296,2025-10-05,P003,Product 23,Clothing,S002,Dragon Trade,China,Warehouse A,Singapore,Sea,BlueDart,78,369,28782,256,3,2,4,3,3.85,On Time,Medium,Low,Excellent
+O0297,2025-07-18,P027,Product 44,Grocery,S002,Dragon Trade,China,Warehouse A,India,Rail,FedEx,135,421,56835,815,14,4,2,6,4.44,Delayed,High,High,Poor
+O0298,2025-10-07,P048,Product 39,Furniture,S005,Sakura Co,Japan,Warehouse B,Germany,Road,FedEx,118,444,52392,230,14,10,4,9,7.63,Delayed,Medium,High,Poor
+O0299,2025-08-08,P018,Product 36,Grocery,S001,Alpha Supplies,India,Warehouse B,UAE,Rail,DHL,52,108,5616,752,4,8,5,0,0.0,Delayed,High,High,Poor
+O0300,2025-11-02,P004,Product 50,Medical,S003,Euro Source,Germany,Warehouse C,USA,Rail,DHL,124,383,47492,959,3,2,3,5,4.03,On Time,High,Low,Excellent
